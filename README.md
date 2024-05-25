@@ -21,4 +21,7 @@ In this repository, I have listed some Interview Questions. <br />
 [How to prevent re-renders in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 [What is the use of React.PureComponent in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 [What are Higher Order Components in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+[What are keys in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+[What is the lazyloading in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+[What are the differences between controlled and uncontrolled components in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 
