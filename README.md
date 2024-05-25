@@ -17,4 +17,8 @@ In this repository, I have listed some Interview Questions. <br />
 [What is useRef() in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 [What is useLayoutEffect() in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 [What is JSX? (JAVASCRIPT XML) in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+[Explain Strict Mode in React? (JAVASCRIPT XML) in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+[How to prevent re-renders in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+[What is the use of React.PureComponent in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+[What are Higher Order Components in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 
