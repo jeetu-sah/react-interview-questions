@@ -10,7 +10,7 @@ In this repository, I have listed some Interview Questions. <br />
 8. [What is useEffect() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 9. [What is useContext() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 10. [What is useReducer() in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-11. [What is useMemo() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+11. [What is useMemo() in React?](#what-is-usememo-in-react)  <br />
 12. [What is useCallback() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 13. [What is useImperativeHandle() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 14. [What is useDebugValue() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
@@ -29,7 +29,7 @@ In this repository, I have listed some Interview Questions. <br />
 27. [Name a few techniques to optimize React app performance.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 28. [How to pass data between react components?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 29. [What are the lifecycle methods of React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-30. [Can React Hook replaces Redux?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+30. [Can React Hook replace Redux?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 31. [Explain conditional rendering in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 32. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 33. [What are Custom Hooks in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
@@ -41,4 +41,15 @@ In this repository, I have listed some Interview Questions. <br />
 ### What are the differences between functional and class components?
 A functional component is just a plain javascript function that returns JSX (javascript XML). <br />
 A class component is a javascript class that extends React.
+
+
+
+### What is useMemo() in React?
+The useMemo Hook only runs when one of its dependencies updates. useMemo is a valuable tool in the React framework, designed to optimize performance by memoizing expensive computations. The React useMemo Hook returns a memoized value.
+Memoization is caching a value so that it does not need to be recalculated. <br />
+It recalculated the value only when one of its dependencies changed. It is useful to avoid expensive calculations on every render when the returned value is not going to change.
+
+
+
+
 
