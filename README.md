@@ -22,7 +22,7 @@ In this repository, I have listed some Interview Questions. <br />
 20. [What is the use of React.PureComponent in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 21. [What are Higher Order Components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 22. [What are keys in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-23. [What is the lazyloading in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+23. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
 24. [What are the differences between controlled and uncontrolled components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 25. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 26. [What is prop drilling in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
@@ -85,5 +85,33 @@ export default WithMemo;
 ```
 
 
+### What is the lazyloading in React?
+Lazy loading is one of the most common design patterns used in web and mobile development. In simple terms, lazy loading is a design pattern. It allows you to load parts of your application on-demand to reduce the initial load time. 
+For example, you can initially load the components and modules related to user login and registration. Then, you can load the rest of the components based on user navigation.
 
+#####    Advantages of Lazy Loading.
+1. Reduces initial loading time by reducing the bundle size.
+2. Reduces browser workload
+3. Improves application performance in low bandwidth situations.
+4. Improves user experience at initial loading.
+5. Optimizes resource usage.
+
+#####    Disadvantages of Lazy Loading.
+1. Not suitable for small-scale applications.
+2. Placeholders can slow down quick scrolling.
+3. Requires additional communication with the server to fetch resources.
+4. Can affect SEO and ranking.
+   
+ ```javascript
+// Without React.lazy()
+import AboutComponent from './AboutComponent ';
+
+// With React.lazy()
+const AboutComponent = React.lazy(() => import('./AboutComponent '));
+
+const HomeComponent = () => (
+    <div><AboutComponent /></div>
+)
+
+```
 
