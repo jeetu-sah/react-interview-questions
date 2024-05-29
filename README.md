@@ -1,6 +1,6 @@
 # React JS Interview Questions.
 In this repository, I have listed some Interview Questions. <br />
-1. [What is React JS?](https://en.wikipedia.org/wiki/Object-relational_mapping) <br /> 
+1. [What is React JS?](#what-is-react-js) <br /> 
 2. [What is the feature of React JS?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 3. [What are the differences between functional and class components?](#what-are-the-differences-between-functional-and-class-components)  <br />
 4. [What is React Router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
@@ -36,6 +36,8 @@ In this repository, I have listed some Interview Questions. <br />
 34. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping) 
 
 
+### What is React JS?
+React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
 
 
 ### What are the differences between functional and class components?
