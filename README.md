@@ -40,14 +40,14 @@ In this repository, I have listed some Interview Questions. <br />
 React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
 
 ### What is the feature of React JS?
-JSX(JavaScript Syntax Extension):
-Virtual DOM:
-One-way Data Binding:
-Performance:
-Extension:
-Conditional Statements:
-Components:
-Simplicity:
+JSX(JavaScript Syntax Extension): <br />
+Virtual DOM: <br />
+One-way Data Binding: <br />
+Performance: <br />
+Extension: <br />
+Conditional Statements: <br />
+Components: <br />
+Simplicity: <br />
 
 
 ### What are the differences between functional and class components?
