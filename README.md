@@ -33,7 +33,8 @@ In this repository, I have listed some Interview Questions. <br />
 31. [Explain conditional rendering in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 32. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 33. [What are Custom Hooks in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-34. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping) 
+34. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping)
+35. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react) 
 
 
 ### What is React JS?
@@ -108,7 +109,7 @@ For example, you can initially load the components and modules related to user l
 4. Improves user experience at initial loading.
 5. Optimizes resource usage.
 
-#####    Disadvantages of Lazy Loading.
+#####   Disadvantages of Lazy Loading.
 1. Not suitable for small-scale applications.
 2. Placeholders can slow down quick scrolling.
 3. Requires additional communication with the server to fetch resources.
@@ -124,6 +125,36 @@ const AboutComponent = React.lazy(() => import('./AboutComponent '));
 const HomeComponent = () => (
     <div><AboutComponent /></div>
 )
+
+```
+
+### How to implement User Authentication in React?
+User authentication is the process of securing user information through the use of some parameters like username, password, and more.
+This helps the user to access his perks and features on a particular website. <br />
+We will be using React JS, a Javascript frontend library, and Auth0, a framework that will help us in making our authentication user-friendly as well as secure.
+   
+ ```javascript
+//install the authO-react js
+
+npm install @auth0/auth0-react bootstrap
+
+//Create the following files and add codes in these files.
+//index.js
+ 
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import { Auth0Provider } from '@auth0/auth0-react';
+ 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <Auth0Provider
+        domain='dev-mf6lqfng.us.auth0.com'
+        clientId='5c1HQIOd6HlVEi2CLLfTPO7HCImJ9qZr'
+        redirectUri={window.location.origin}>
+        <App />
+    </Auth0Provider>
+);
 
 ```
 
