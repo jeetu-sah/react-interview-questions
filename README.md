@@ -34,7 +34,10 @@ In this repository, I have listed some Interview Questions. <br />
 32. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 33. [What are Custom Hooks in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 34. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping)
-35. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react) 
+35. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
+36. [Explain Action’s in Redux.](#how-to-implement-user-authentication-in-react)
+
+
 
 
 ### What is React JS?
@@ -155,6 +158,25 @@ root.render(
         <App />
     </Auth0Provider>
 );
+
+```
+
+### Explain Action’s in Redux
+ Actions are plain JavaScript object that contains information. Action is one of the building blocks of Redux. <br />
+ <b>Redux</b> is a state managing library used in JavaScript apps. It is used to manage the data and the state of the application.
+
+<b>Uses of Redux:</b> With the help of redux it is easy to manage state and data. At the start, it is hard to understand but it really helps to build complex applications. In starting, it feels like a lot of work, but it is really helpful.
+
+<b>Action:</b> Actions are JavaScript object that contains information. Actions are the only source of information for the store. It basically carries a payload of information from the application to the store. It only tells us what has happened. Actions have a type property that they must include as type property tells what kind of action to perform. Action can also contain the payload(data field in the action) to describe the action.
+
+This was the small brief about redux. Now, we will discuss the Action object.
+<b>Syntax of Action</b> 
+ ```javascript
+
+const Actions = {
+     type: '',
+     payload: ''
+}
 
 ```
 
