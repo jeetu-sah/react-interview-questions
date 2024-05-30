@@ -35,7 +35,7 @@ In this repository, I have listed some Interview Questions. <br />
 33. [What are Custom Hooks in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 34. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping)
 35. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
-36. [Explain Action’s in Redux.](#how-to-implement-user-authentication-in-react)
+36. [Explain Action’s in Redux.](#explain-actions-in-redux)
 
 
 
