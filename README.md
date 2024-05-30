@@ -169,7 +169,7 @@ root.render(
 
 <b>Action:</b> Actions are JavaScript object that contains information. Actions are the only source of information for the store. It basically carries a payload of information from the application to the store. It only tells us what has happened. Actions have a type property that they must include as type property tells what kind of action to perform. Action can also contain the payload(data field in the action) to describe the action.
 
-This was the small brief about redux. Now, we will discuss the Action object.
+This was the small brief about redux. Now, we will discuss the Action object. <br />
 <b>Syntax of Action</b> 
  ```javascript
 
