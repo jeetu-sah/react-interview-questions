@@ -23,7 +23,7 @@ In this repository, I have listed some Interview Questions. <br />
 21. [What are Higher Order Components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 22. [What are keys in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 23. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
-24. [What are the differences between controlled and uncontrolled components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+24. [What are the differences between controlled and uncontrolled components in React?](#what-are-the-differences-between-controlled-and-uncontrolled-components-in-react)  <br />
 25. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 26. [What is prop drilling in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 27. [Name a few techniques to optimize React app performance.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
@@ -179,4 +179,87 @@ const Actions = {
 }
 
 ```
+
+
+### What are the differences between controlled and uncontrolled components in React?
+ In React, Controlled components refer to the components where the state and behaviors are controlled by Parent components. <br />
+ while Uncontrolled components are the ones having control of their own state and manage the behaviors on themselves.
+
+<b>Uncontrolled Components:</b> Uncontrolled Components are the components that are not controlled by the React state and are handled by the DOM (Document Object Model). So in order to access any value that has been entered we take the help of refs.
+
+<b>Example:</b> <br />
+ ```javascript
+
+// FileName - App.js]
+
+import React, { useRef } from "react";
+import "./App.css";
+
+function App() {
+	const inputRef = useRef(null);
+
+	function handleSubmit() {
+		alert(`Name: ${inputRef.current.value}`);
+	}
+
+	return (
+		<div className="App">
+			<h1 className="geeks">GeeksForGeeks</h1>
+			<h3>Uncontrolled Component</h3>
+			<form onSubmit={handleSubmit}>
+				<label>Name :</label>
+				<input
+					type="text"
+					name="name"
+					ref={inputRef}
+				/>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	);
+}
+
+export default App;
+```
+<b>Controlled Components:</b> In React, Controlled Components are those in which form’s data is handled by the component’s state. It takes its current value through props and makes changes through callbacks like onClick, onChange, etc. A parent component manages its own state and passes the new values as props to the controlled component.
+
+
+<b>Example:</b> <br />
+ ```javascript
+
+// FileName - App.js
+
+import { useState } from "react";
+import "./App.css";
+
+function App() {
+	const [name, setName] = useState("");
+
+	function handleSubmit() {
+		alert(`Name: ${name}`);
+	}
+
+	return (
+		<div className="App">
+			<h1 className="geeks">GeeksForGeeks</h1>
+			<h3>Controlled Component</h3>
+			<form onSubmit={handleSubmit}>
+				<label>Name:</label>
+				<input
+					name="name"
+					value={name}
+					onChange={(e) =>
+						setName(e.target.value)
+					}
+				/>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	);
+}
+
+export default App;
+
+```
+
 
