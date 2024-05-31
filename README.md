@@ -199,12 +199,12 @@ function App() {
 	const inputRef = useRef(null);
 
 	function handleSubmit() {
-		alert(`Name: ${inputRef.current.value}`);
+		alert(`fULL Name: ${inputRef.current.value}`);
 	}
 
 	return (
 		<div className="App">
-			<h1 className="geeks">GeeksForGeeks</h1>
+			<h1>ReactInterViewQuestion</h1>
 			<h3>Uncontrolled Component</h3>
 			<form onSubmit={handleSubmit}>
 				<label>Name :</label>
@@ -236,12 +236,12 @@ function App() {
 	const [name, setName] = useState("");
 
 	function handleSubmit() {
-		alert(`Name: ${name}`);
+		alert(`Full Name: ${name}`);
 	}
 
 	return (
 		<div className="App">
-			<h1 className="geeks">GeeksForGeeks</h1>
+			<h1>ReactInterViewQuestion</h1>
 			<h3>Controlled Component</h3>
 			<form onSubmit={handleSubmit}>
 				<label>Name:</label>
