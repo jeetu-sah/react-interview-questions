@@ -32,7 +32,7 @@ In this repository, I have listed some Interview Questions. <br />
 30. [Can React Hook replace Redux?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 31. [Explain conditional rendering in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 32. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-33. [What are Custom Hooks in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+33. [What are Custom Hooks in React?](#what-are-custom-hooks-in-react)  <br />
 34. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping) 
 
 
@@ -114,4 +114,60 @@ const HomeComponent = () => (
 )
 
 ```
+
+####  What are Custom Hooks in React?
+Custom Hooks are functions that start with the word <b>use</b> and can return any value, including other hooks. <br />
+They can be used to encapsulate any common functionality that you need to use in multiple components.
+
+<b>Example:</b> You could create a custom hook to fetch data from an API, to manage state, or to handle form validation.
+
+ ```javascript
+// Custom hook
+import { useState } from 'react';
+
+export const useFetch = (url) => {
+  const [data, setData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data);
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        setError(error);
+        setIsLoading(false);
+      });
+  }, [url]);
+
+  return { data, isLoading, error };
+};
+
+// Component
+import { useFetch } from './useFetch';
+
+const MyComponent = () => {
+  const { data, isLoading, error } = useFetch('https://api.example.com/users');
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
+
+  return (
+    <ul>
+      {data.map((user) => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
+  );
+};
+```
+
 
