@@ -25,7 +25,7 @@ In this repository, I have listed some Interview Questions. <br />
 23. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
 24. [What are the differences between controlled and uncontrolled components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 25. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-26. [What is prop drilling in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+26. [What is prop drilling in React?](#what-is-prop-drilling-in-react)  <br />
 27. [Name a few techniques to optimize React app performance.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 28. [How to pass data between react components?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 29. [What are the lifecycle methods of React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
@@ -114,6 +114,24 @@ const HomeComponent = () => (
 )
 
 ```
+### What is prop drilling in React?
+In React, Props Drilling is a practice in which a prop or data is passed from one parent component to one or lower children's components, resulting in multiple levels of the component tree. 
+
+#### Why We Shouldn't Use Prop Drilling?
+Prop drilling refers to the process of passing data from a parent component to deeply nested child components by passing props through intermediate components that do not need the data themselves. While this approach can work for small applications, it becomes problematic as the application grows.
+
+#### Reasons to Avoid Prop Drilling
+ -> Maintenance Complexity <br />
+ -> Scalability Issues <br />
+ -> Code Readability <br />
+ -> Bug-Prone <br />
+ -> Performance <br />
+
+ #### Fixing the Prop Drilling by Using the Context API
+ The Context API in React provides a way to share values between components without having to pass props through every level of the tree. This helps to avoid prop drilling 
+ and simplifies state management across deeply nested components.
+
+
 
 ###  What are Custom Hooks in React?
 Custom Hooks are functions that start with the word <b>use</b> and can return any value, including other hooks. <br />
