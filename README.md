@@ -83,7 +83,16 @@ const WithMemo = () => {
 };
 export default WithMemo;
 ```
+### What is JSX? (JAVASCRIPT XML) in React?
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods. JSX converts HTML tags into react elements.
 
+ ```javascript
+const myElement = <h1>I Love JSX!</h1>;
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(myElement);
+```
 
 ### What is the lazyloading in React?
 Lazy loading is one of the most common design patterns used in web and mobile development. In simple terms, lazy loading is a design pattern. It allows you to load parts of your application on-demand to reduce the initial load time. 
