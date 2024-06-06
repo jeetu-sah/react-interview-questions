@@ -1,7 +1,7 @@
 # React JS Interview Questions.
 In this repository, I have listed some Interview Questions. <br />
 1. [What is React JS?](https://en.wikipedia.org/wiki/Object-relational_mapping) <br />
-2. [What is Babel?](https://en.wikipedia.org/wiki/Object-relational_mapping) <br />
+2. [What is Babel?](#what-is-babel) <br />
 3. [What is the feature of React JS?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 4. [What are the differences between functional and class components?](#what-are-the-differences-between-functional-and-class-components)  <br />
 5. [What is React Router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
