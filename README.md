@@ -115,7 +115,7 @@ const HomeComponent = () => (
 
 ```
 
-####  What are Custom Hooks in React?
+###  What are Custom Hooks in React?
 Custom Hooks are functions that start with the word <b>use</b> and can return any value, including other hooks. <br />
 They can be used to encapsulate any common functionality that you need to use in multiple components.
 
@@ -169,5 +169,11 @@ const MyComponent = () => {
   );
 };
 ```
+
+#### Benefits of using custom hooks
+-> Reusability <br />
+-> Maintainability  <br />
+-> Testability  <br />
+-> Performance  <br />
 
 
