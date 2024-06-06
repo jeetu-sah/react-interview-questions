@@ -37,6 +37,9 @@ In this repository, I have listed some Interview Questions. <br />
 35. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping) 
 
 
+### What is Babel?
+Babel is a JavaScript compiler that can translate markup or programming languages into JavaScript. With Babel, you can use the newest features of JavaScript (ES6 - ECMAScript 2015). Babel is available for different conversions. <br />
+React uses Babel to convert JSX into JavaScript.
 
 
 ### What are the differences between functional and class components?
