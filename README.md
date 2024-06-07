@@ -36,11 +36,12 @@ In this repository, I have listed some Interview Questions. <br />
 33. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 34. [What are Custom Hooks in React?](#what-are-custom-hooks-in-react)  <br />
 35. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping) 
+35. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
+36. [Explain Action’s in Redux.](#explain-actions-in-redux)
+37. [Explain Root Reducer in React JS.](#explain-actions-in-redux)
 
 
-### What is Babel?
-Babel is a JavaScript compiler that can translate markup or programming languages into JavaScript. With Babel, you can use the newest features of JavaScript (ES6 - ECMAScript 2015). Babel is available for different conversions. <br />
-React uses Babel to convert JSX into JavaScript.
+
 
 1. [What is React JS?](#what-is-react-js) <br /> 
 2. [What is the feature of React JS?](#what-is-the-feature-of-react-js)  <br />
@@ -76,13 +77,14 @@ React uses Babel to convert JSX into JavaScript.
 32. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 33. [What are Custom Hooks in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 34. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping)
-35. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
-36. [Explain Action’s in Redux.](#explain-actions-in-redux)
-37. [Explain Root Reducer in React JS.](#explain-actions-in-redux)
 
 
 ### What is React JS?
 React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
+
+### What is Babel?
+Babel is a JavaScript compiler that can translate markup or programming languages into JavaScript. With Babel, you can use the newest features of JavaScript (ES6 - ECMAScript 2015). Babel is available for different conversions. <br />
+React uses Babel to convert JSX into JavaScript.
 
 ### What is the feature of React JS?
 JSX(JavaScript Syntax Extension): <br />
