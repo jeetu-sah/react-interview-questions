@@ -34,7 +34,7 @@ In this repository, I have listed some Interview Questions. <br />
 31. [Can React Hook replace Redux?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 32. [Explain conditional rendering in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 33. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-34. [What are Custom Hooks in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+34. [What are Custom Hooks in React?](#what-are-custom-hooks-in-react)  <br />
 35. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping)
 36. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
 37. [Explain Action’s in Redux.](#explain-actions-in-redux)
