@@ -1,48 +1,6 @@
 # React JS Interview Questions.
 In this repository, I have listed some Interview Questions. <br />
 
-1. [What is React JS?](https://en.wikipedia.org/wiki/Object-relational_mapping) <br />
-2. [What is Babel?](#what-is-babel) <br />
-3. [What is the feature of React JS?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-4. [What are the differences between functional and class components?](#what-are-the-differences-between-functional-and-class-components)  <br />
-5. [What is React Router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-6. [What is the virtual DOM? How does react use the virtual DOM to render the UI?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-7. [Explain Types of Hooks in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-8. [What is useState() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-9. [What is useEffect() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-10. [What is useContext() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-11. [What is useReducer() in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-12. [What is useMemo() in React?](#what-is-usememo-in-react)  <br />
-13. [What is useCallback() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-14. [What is useImperativeHandle() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-15. [What is useDebugValue() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-16. [What is useRef() in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-17. [What is useLayoutEffect() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-18. [What is JSX? (JAVASCRIPT XML) in React?](#what-is-jsx-javascript-xml-in-react)  <br />
-19. [Explain Strict Mode in React? (JAVASCRIPT XML) in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-20. [How to prevent re-renders in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-21. [What is the use of React.PureComponent in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-22. [What are Higher Order Components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-23. [What are keys in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-24. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
-25. [What are the differences between controlled and uncontrolled components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-26. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-27. [What is prop drilling in React?](#what-is-prop-drilling-in-react)  <br />
-28. [Name a few techniques to optimize React app performance.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-29. [How to pass data between react components?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-30. [What are the lifecycle methods of React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-31. [Can React Hook replace Redux?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-32. [Explain conditional rendering in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-33. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-34. [What are Custom Hooks in React?](#what-are-custom-hooks-in-react)  <br />
-35. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping) 
-35. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
-36. [Explain Action’s in Redux.](#explain-actions-in-redux)
-37. [Explain Root Reducer in React JS.](#explain-actions-in-redux)
-
-
-
-
 1. [What is React JS?](#what-is-react-js) <br /> 
 2. [What is the feature of React JS?](#what-is-the-feature-of-react-js)  <br />
 3. [What are the differences between functional and class components?](#what-are-the-differences-between-functional-and-class-components)  <br />
