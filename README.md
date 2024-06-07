@@ -18,7 +18,7 @@ In this repository, I have listed some Interview Questions. <br />
 15. [What is useDebugValue() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 16. [What is useRef() in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 17. [What is useLayoutEffect() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-18. [What is JSX? (JAVASCRIPT XML) in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+18. [What is JSX? (JAVASCRIPT XML) in React?](#what-is-jsx-javascript-xml-in-react)  <br />
 19. [Explain Strict Mode in React? (JAVASCRIPT XML) in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 20. [How to prevent re-renders in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 21. [What is the use of React.PureComponent in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
@@ -27,7 +27,7 @@ In this repository, I have listed some Interview Questions. <br />
 24. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
 25. [What are the differences between controlled and uncontrolled components in React?](#what-are-the-differences-between-controlled-and-uncontrolled-components-in-react)  <br />
 26. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-27. [What is prop drilling in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+27. [What is prop drilling in React?](#what-is-prop-drilling-in-react)  <br />
 28. [Name a few techniques to optimize React app performance.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 29. [How to pass data between react components?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 30. [What are the lifecycle methods of React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
