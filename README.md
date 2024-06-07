@@ -1,5 +1,47 @@
 # React JS Interview Questions.
 In this repository, I have listed some Interview Questions. <br />
+
+1. [What is React JS?](https://en.wikipedia.org/wiki/Object-relational_mapping) <br />
+2. [What is Babel?](#what-is-babel) <br />
+3. [What is the feature of React JS?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+4. [What are the differences between functional and class components?](#what-are-the-differences-between-functional-and-class-components)  <br />
+5. [What is React Router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+6. [What is the virtual DOM? How does react use the virtual DOM to render the UI?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+7. [Explain Types of Hooks in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+8. [What is useState() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+9. [What is useEffect() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+10. [What is useContext() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+11. [What is useReducer() in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+12. [What is useMemo() in React?](#what-is-usememo-in-react)  <br />
+13. [What is useCallback() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+14. [What is useImperativeHandle() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+15. [What is useDebugValue() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+16. [What is useRef() in React?.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+17. [What is useLayoutEffect() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+18. [What is JSX? (JAVASCRIPT XML) in React?](#what-is-jsx-javascript-xml-in-react)  <br />
+19. [Explain Strict Mode in React? (JAVASCRIPT XML) in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+20. [How to prevent re-renders in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+21. [What is the use of React.PureComponent in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+22. [What are Higher Order Components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+23. [What are keys in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+24. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
+25. [What are the differences between controlled and uncontrolled components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+26. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+27. [What is prop drilling in React?](#what-is-prop-drilling-in-react)  <br />
+28. [Name a few techniques to optimize React app performance.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+29. [How to pass data between react components?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+30. [What are the lifecycle methods of React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+31. [Can React Hook replace Redux?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+32. [Explain conditional rendering in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+33. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+34. [What are Custom Hooks in React?](#what-are-custom-hooks-in-react)  <br />
+35. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping) 
+
+
+### What is Babel?
+Babel is a JavaScript compiler that can translate markup or programming languages into JavaScript. With Babel, you can use the newest features of JavaScript (ES6 - ECMAScript 2015). Babel is available for different conversions. <br />
+React uses Babel to convert JSX into JavaScript.
+
 1. [What is React JS?](#what-is-react-js) <br /> 
 2. [What is the feature of React JS?](#what-is-the-feature-of-react-js)  <br />
 3. [What are the differences between functional and class components?](#what-are-the-differences-between-functional-and-class-components)  <br />
@@ -37,7 +79,6 @@ In this repository, I have listed some Interview Questions. <br />
 35. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
 36. [Explain Action’s in Redux.](#explain-actions-in-redux)
 37. [Explain Root Reducer in React JS.](#explain-actions-in-redux)
-
 
 
 ### What is React JS?
@@ -99,7 +140,16 @@ const WithMemo = () => {
 };
 export default WithMemo;
 ```
+### What is JSX? (JAVASCRIPT XML) in React?
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods. JSX converts HTML tags into react elements.
 
+ ```javascript
+const myElement = <h1>I Love JSX!</h1>;
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(myElement);
+```
 
 ### What is the lazyloading in React?
 Lazy loading is one of the most common design patterns used in web and mobile development. In simple terms, lazy loading is a design pattern. It allows you to load parts of your application on-demand to reduce the initial load time. 
@@ -130,6 +180,86 @@ const HomeComponent = () => (
 )
 
 ```
+### What is prop drilling in React?
+In React, Props Drilling is a practice in which a prop or data is passed from one parent component to one or lower children's components, resulting in multiple levels of the component tree. 
+
+#### Why We Shouldn't Use Prop Drilling?
+Prop drilling refers to the process of passing data from a parent component to deeply nested child components by passing props through intermediate components that do not need the data themselves. While this approach can work for small applications, it becomes problematic as the application grows.
+
+#### Reasons to Avoid Prop Drilling
+ -> Maintenance Complexity <br />
+ -> Scalability Issues <br />
+ -> Code Readability <br />
+ -> Bug-Prone <br />
+ -> Performance <br />
+
+ #### Fixing the Prop Drilling by Using the Context API
+ The Context API in React provides a way to share values between components without having to pass props through every level of the tree. This helps to avoid prop drilling 
+ and simplifies state management across deeply nested components.
+
+
+
+###  What are Custom Hooks in React?
+Custom Hooks are functions that start with the word <b>use</b> and can return any value, including other hooks. <br />
+They can be used to encapsulate any common functionality that you need to use in multiple components.
+
+<b>Example:</b> You could create a custom hook to fetch data from an API, to manage state, or to handle form validation.
+
+ ```javascript
+// Custom hook
+import { useState } from 'react';
+
+export const useFetch = (url) => {
+  const [data, setData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data);
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        setError(error);
+        setIsLoading(false);
+      });
+  }, [url]);
+
+  return { data, isLoading, error };
+};
+
+// Component
+import { useFetch } from './useFetch';
+
+const MyComponent = () => {
+  const { data, isLoading, error } = useFetch('https://api.example.com/users');
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
+
+  return (
+    <ul>
+      {data.map((user) => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
+  );
+};
+```
+
+#### Benefits of using custom hooks
+-> Reusability <br />
+-> Maintainability  <br />
+-> Testability  <br />
+-> Performance  <br />
+
 
 ### How to implement User Authentication in React?
 User authentication is the process of securing user information through the use of some parameters like username, password, and more.
