@@ -25,6 +25,7 @@ In this repository, I have listed some React Interview Questions. <br />
 22. [What are Higher Order Components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 23. [What are keys in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 24. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
+24. [Explain lazyloading with <Suspense> in React.](#what-is-the-lazyloading-in-react)  <br />
 25. [What are the differences between controlled and uncontrolled components in React?](#what-are-the-differences-between-controlled-and-uncontrolled-components-in-react)  <br />
 26. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 27. [What is prop drilling in React?](#what-is-prop-drilling-in-react)  <br />
@@ -144,6 +145,16 @@ const HomeComponent = () => (
 )
 
 ```
+
+### Explain lazyloading with <Suspense> in React.
+<Suspense> lets you display a fallback until its children have finished loading.
+
+ ```javascript
+<Suspense fallback={<Loading />}>
+  <SomeComponent />
+</Suspense>
+```
+
 ### What is prop drilling in React?
 In React, Props Drilling is a practice in which a prop or data is passed from one parent component to one or lower children's components, resulting in multiple levels of the component tree. 
 
