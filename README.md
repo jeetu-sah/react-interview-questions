@@ -286,6 +286,22 @@ const Actions = {
 
 ```
 
+### What is the use of React.PureComponent in React?
+
+PureComponent is similar to Component but it skips re-renders for same props and state.
+
+ReactJS has provided us with a Pure Component. If we extend a class with Pure Component, there is no need for the shouldComponentUpdate() lifecycle method. ReactJS Pure Component Class compares the current state and props with new props and states to decide whether the React component should re-render itself or not.
+
+ ```javascript
+ 
+import React from "react";
+
+export default class Test extends React.PureComponent {
+    render() {
+        return <h1>Welcome to GeeksforGeeks</h1>;
+    }
+}
+```
 
 ### What are the differences between controlled and uncontrolled components in React?
  In React, Controlled components refer to the components where the state and behaviors are controlled by Parent components. <br />
