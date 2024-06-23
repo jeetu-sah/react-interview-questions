@@ -25,21 +25,21 @@ In this repository, I have listed some React Interview Questions. <br />
 22. [What are Higher Order Components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 23. [What are keys in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 24. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
-24. [Explain lazyloading with <Suspense> in React.](#explain-lazyloading-with--in-react)  <br />
-25. [What are the differences between controlled and uncontrolled components in React?](#what-are-the-differences-between-controlled-and-uncontrolled-components-in-react)  <br />
-26. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-27. [What is prop drilling in React?](#what-is-prop-drilling-in-react)  <br />
-28. [Name a few techniques to optimize React app performance.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-29. [How to pass data between react components?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-30. [What are the lifecycle methods of React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-31. [Can React Hook replace Redux?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-32. [Explain conditional rendering in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-33. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-34. [What are Custom Hooks in React?](#what-are-custom-hooks-in-react)  <br />
-35. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping)
-36. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
-37. [Explain Action’s in Redux.](#explain-actions-in-redux)
-38. [Explain Root Reducer in React JS.](#explain-actions-in-redux)
+25. [Explain lazyloading with <Suspense> in React.](#explain-lazyloading-with--in-react)  <br />
+26. [What are the differences between controlled and uncontrolled components in React?](#what-are-the-differences-between-controlled-and-uncontrolled-components-in-react)  <br />
+27. [What are props in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+28. [What is prop drilling in React?](#what-is-prop-drilling-in-react)  <br />
+29. [Name a few techniques to optimize React app performance.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+30. [How to pass data between react components?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+31. [What are the lifecycle methods of React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+32. [Can React Hook replace Redux?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+33. [Explain conditional rendering in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+34. [How to pass data between sibling components using React router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+35. [What are Custom Hooks in React?](#what-are-custom-hooks-in-react)  <br />
+36. [Why do React Hooks make use of refs?](https://en.wikipedia.org/wiki/Object-relational_mapping)
+37. [How to implement User Authentication in React?](#how-to-implement-user-authentication-in-react)
+38. [Explain Action’s in Redux.](#explain-actions-in-redux)
+39. [Explain Root Reducer in React JS.](#explain-actions-in-redux)
 40. [Explain describe() method in React unit test caseses.](#explain-actions-in-redux)
 
 
