@@ -21,7 +21,7 @@ In this repository, I have listed some React Interview Questions. <br />
 18. [What is JSX? (JAVASCRIPT XML) in React?](#what-is-jsx-javascript-xml-in-react)  <br />
 19. [Explain Strict Mode in React? (JAVASCRIPT XML) in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 20. [How to prevent re-renders in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
-21. [What is the use of React.PureComponent in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+21. [What is the use of React.PureComponent in React?](#what-is-the-use-of-reactpurecomponent-in-react)  <br />
 22. [What are Higher Order Components in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 23. [What are keys in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 24. [What is the lazyloading in React?](#what-is-the-lazyloading-in-react)  <br />
@@ -293,7 +293,7 @@ PureComponent is similar to Component but it skips re-renders for same props and
 ReactJS has provided us with a Pure Component. If we extend a class with Pure Component, there is no need for the shouldComponentUpdate() lifecycle method. ReactJS Pure Component Class compares the current state and props with new props and states to decide whether the React component should re-render itself or not.
 
  ```javascript
- 
+
 import React from "react";
 
 export default class Test extends React.PureComponent {
