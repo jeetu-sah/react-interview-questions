@@ -1,5 +1,5 @@
-# React JS Interview Questions and Answers.
-Here, I have listed some React Interview Questions. <br />
+# React JS Interview Questions and their Answers.
+Here, I have listed some React Interview Questions and their answers. <br />
 
 1. [What is React JS?](#what-is-react-js) <br />
 2. [What is Babel?](#what-is-babel) <br />
