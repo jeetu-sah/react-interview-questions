@@ -5,7 +5,7 @@ In this repository, I have listed some React Interview Questions. <br />
 2. [What is Babel?](#what-is-babel) <br />
 3. [What is the feature of React JS?](#what-is-the-feature-of-react-js)  <br />
 4. [What are the differences between functional and class components?](#what-are-the-differences-between-functional-and-class-components)  <br />
-5. [What is React Router?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
+5. [What is React Router?](#what-is-a-react-router)  <br />
 6. [What is the virtual DOM? How does react use the virtual DOM to render the UI?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 7. [Explain Types of Hooks in React.](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
 8. [What is useState() in React?](https://en.wikipedia.org/wiki/Object-relational_mapping)  <br />
