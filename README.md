@@ -66,6 +66,22 @@ A functional component is just a plain javascript function that returns JSX (jav
 A class component is a javascript class that extends React.
 
 
+### What is a React Router?
+Using the React Router, we can handle routing and navigation in React JS Applications. React router enables the navigation in the Reactjs Application without refreshing the entire page. we can create dynamic routes by using this.
+```javascript
+ReactDOM.createRoot(root).render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="dashboard" element={<Dashboard />}>
+        <Route index element={<RecentActivity />} />
+        <Route path="project/:id" element={<Project />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
+);
+```
+
 
 ### What is useMemo() in React?
 The useMemo Hook only runs when one of its dependencies updates. useMemo is a valuable tool in the React framework, designed to optimize performance by memoizing expensive computations. The React useMemo Hook returns a memoized value.
