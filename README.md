@@ -41,7 +41,7 @@ Here, I have listed some React Interview Questions and their answers. <br />
 38. [Explain Action’s in Redux.](#explain-actions-in-redux)
 39. [Explain Root Reducer in React JS.](#explain-actions-in-redux)
 40. [Explain describe() method in React unit test caseses.](#explain-actions-in-redux)
-41. [What is the use of event.stopPropagation() method?](#explain-actions-in-redux)
+41. [What is the use of event.stopPropagation() method?](#what-is-the-use-of-eventstoppropagation-method)
 
 
 ### What is React JS?
