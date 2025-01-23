@@ -82,7 +82,24 @@ ReactDOM.createRoot(root).render(
   </BrowserRouter>
 );
 ```
-
+### What is the virtual DOM? How does react use the virtual DOM to render the UI?
+   <strong>What is the VDOM:</strong> 
+   The  virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM. VDOM is a lightweight and copy of the original DOM. After the changed in UI, its re-render only changed element.
+   
+   <strong>How does the Virtual DOM Work?</strong> 
+   1 – State and Props Changes: In the react component if any state and props will be change, React re-renders the affected components in the virtual DOM, These changes do not immediately impact the real DOM.
+   
+   2 – Diffing Algorithm: React uses diffing algorithm to compare the current version of the Virtual DOM with the previous version. This process finds the differences between the two versions.
+     
+   3 – Reconciliation Process: React’s reconciliation updates the UI based on changes in the Virtual DOM. 
+   4 – Update to the Real DOM: finally, React applies the necessary changes to the real DOM. This might involve adding, removing, or updating elements based on the differences detected in step 3.
+   
+   <strong>Advantages of the Virtual DOM:<strong>
+   1. Optimize Performance:
+   2. Better User Experience: 
+   
+   <strong>Disadvantages of the Virtual DOM:</strong>
+   1. Extra Memory Consumption: React maintaining Virtual DOM trees, this is an extra layer in the application, consumes additional memory.
 
 ### What is useMemo() in React?
 The useMemo Hook only runs when one of its dependencies updates. useMemo is a valuable tool in the React framework, designed to optimize performance by memoizing expensive computations. The React useMemo Hook returns a memoized value.
