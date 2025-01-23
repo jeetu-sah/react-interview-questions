@@ -404,6 +404,7 @@ export default App;
 
 ### What is the use of event.stopPropagation() method.
 The <strong>e.stopPropagation() </strong> method prevents propagation of the same event from the others DOM elements. <br />
+The stopPropagation() method allows you to prevent propagation of the current event.
 <strong>Example: </strong>
 ```javascript
 <div onclick="func2()">DIV 2
