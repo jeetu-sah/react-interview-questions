@@ -41,6 +41,7 @@ Here, I have listed some React Interview Questions and their answers. <br />
 38. [Explain Action’s in Redux.](#explain-actions-in-redux)
 39. [Explain Root Reducer in React JS.](#explain-actions-in-redux)
 40. [Explain describe() method in React unit test caseses.](#explain-actions-in-redux)
+41. [What is the use of event.stopPropagation() method?](#explain-actions-in-redux)
 
 
 ### What is React JS?
@@ -400,4 +401,22 @@ export default App;
 
 ```
 
+
+### What is the use of event.stopPropagation() method.
+The <strong>e.stopPropagation() </strong> method prevents propagation of the same event from the others DOM elements.
+
+```javascript
+<div onclick="func2()">DIV 2
+  <div onclick="func1(event)">DIV 1</div>
+</div>
+
+function func1(event) {
+  alert("first section ");
+  event.stopPropagation();
+}
+
+function func2() {
+  alert(" second section ");
+}
+```
 
